@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.front {
+    background-image: url(https://www.star-telegram.com/latest-news/m7fq7z/picture227144064/alternates/FREE_1140/_BLG7994.jpg);
+    max-width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(240, 239, 239);
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 2px; 
+    font-size: 10px;
+}
+
+.navbar .title {
+    font-size: 1.8em;
+}
+
+.navbar a:hover {
+    color: rgb(202, 202, 202);
+}
+
+
+#front-home h1, h3 {
+    /* background-image: url(https://2h3sdq4af75z9l3tx1da2dih-wpengine.netdna-ssl.com/wp-content/uploads/2020/12/IMG_2127.jpeg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-size: cover; */
+    color: rgb(238, 238, 238);
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 22px;
+    font-size: 4em;
+    background-image: none;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#experience {
+    background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd41%2Fshrimp-sausage-cheesy-grits-64503878-0221%2Fshrimp-sausage-cheesy-grits-64503878-0221_horiz.jpg%3Fitok%3Dvka7cfgV&q=85);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    height: 40vh;
+    max-width: 100%;
+}
+
+#experience h2 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 4em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+#experience .btn {
+    padding: 2em;
+    max-width: 100%;
+    border: none;
+    background-color: white;
+    font-family: 'Exo 2', sans-serif;
+    letter-spacing: 3px;
+}
+
+#experience .btn:hover {
+    background-color: rgba(228, 228, 228, 0.87);
+}
+
+#story {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/58cd6ca23e00be5662baa1bd/1564278292867-STP3C5XKEX73E083EURC/daen-van-beers-irrLJRP8CWQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    height: 150vh;
+    max-width: 100%;
+}
+
+#story h2 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 4em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+#story .story-img {
+    display: flex;
+    justify-content: center;
+    max-width: 700px;
+    max-height: 720px;
+}
+
+.story-container p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.4em;
+    color: whitesmoke;
+}
+
+.start-container p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.4em;
+    color: whitesmoke;
+    margin-left: 4em;
+}
